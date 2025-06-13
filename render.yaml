@@ -7,7 +7,7 @@ services:
     branch: main
     plan: free
     buildCommand: npm install
-    startCommand: node index.js
+    startCommand: node src/index.js
     envVars:
       - key: MONGODB_URI
         value: mongodb+srv://dafers142:Vbek3WwbR33GkUhn@cluster0.egzp2bc.mongodb.net/romapp?retryWrites=true&w=majority
