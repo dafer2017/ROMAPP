@@ -1,3 +1,4 @@
+
 # render.yaml
 services:
   - type: web
@@ -12,14 +13,3 @@ services:
         fromDatabase:
           name: atlas-credentials
           key: MONGODB_URI
-
-  - type: static
-    name: romapp-frontend
-    env: static
-    branch: main
-    plan: free
-    buildCommand: npm install && npm run build
-    publishPath: build
-    envVars:
-      - key: REACT_APP_API_URL
-        value: https://romapp-backend.onrender.com
