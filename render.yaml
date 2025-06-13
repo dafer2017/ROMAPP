@@ -1,7 +1,7 @@
 
 # render.yaml
 services:
-  - type: web
+  - type: web_service
     name: romapp-backend
     env: node
     branch: main
@@ -14,7 +14,7 @@ services:
           name: atlas-credentials
           key: MONGODB_URI
 
-  - type: static
+  - type: static_site
     name: romapp-frontend
     env: static
     branch: main
