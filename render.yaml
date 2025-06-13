@@ -1,6 +1,6 @@
 # render.yaml
 services:
-  - type: web_service
+  - type: webservice
     name: romapp-backend
     env: node
     branch: main
