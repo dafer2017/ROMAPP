@@ -7,5 +7,5 @@ services:
     buildCommand: npm install
     startCommand: node index.js
     envVars:
-      - key: MONGODB_URI
-        value: mongodb+srv://<tu-URI>
+  - key: MONGODB_URI
+    value: mongodb+srv://dafers142:Vbek3WwbR33GkUnh@cluster0.egzp2bc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
